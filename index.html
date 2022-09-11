@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horoscope X App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="app-title">AsCol App</h1>
+    <h2 class="app-sub-title">Find best way to cooperate with others</h2>
+    <div class="form">
+      <div class="one-person-form">
+        <h2>Person A:</h2>
+        <div class="inputs">
+          <div class="input">
+            <span>Name</span>
+            <input id="name1" type="text" placeholder="Norman" />
+          </div>
+          <div class="input">
+            <span>Date of Birth</span>
+            <input id="dob1" type="date" placeholder="dob" />
+          </div>
+          <div class="input">
+            <span>Gender</span>
+            <div class="radio">
+                <input type="radio" id="gender1-male" name="gender1" value="male" />
+                  <label for="html">Male</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="gender1-female" name="gender1" value="female" />
+                  <label for="html">Female</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="one-person-form">
+        <h2>Person B:</h2>
+        <div class="inputs">
+          <div class="input">
+            <span>Name</span>
+            <input id="name2" type="text" placeholder="Chloe" />
+          </div>
+          <div class="input">
+            <span>Date of Birth</span>
+            <input id="dob2" type="date" placeholder="dob" />
+          </div>
+          <div class="input">
+            <span>Gender</span>
+            <div class="radio">
+                <input type="radio" id="gender2-male" name="gender2" value="male" />
+                  <label for="html">Male</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="gender2-female" name="gender2" value="female" />
+                  <label for="html">Female</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="submit-btn" class="submit-btn">Get Recommendations</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(226, 226, 226); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.app-sub-title {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 4rem;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+}
+
+.column {
+    width: 30%;
+    max-height: 60vh;
+    overflow: auto;
+    background-color: #e3faff;
+    padding: 2rem;
+}
+
+.column h2 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.point {
+    margin-bottom: 1rem;
+}
+
+.column-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.column-header .type {
+    display: flex;
+    align-items: center;
+}
+.column-header img {
+    width: 30px;
+    margin-left: 1rem;
+}
+
+#score {
+    margin-bottom: 2rem;
+}
+
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.orange {
+    color: orange;
+}
